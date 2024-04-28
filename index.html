@@ -10,21 +10,67 @@
 
 <body>
   <div class="relative w-full h-screen overflow-hidden" id="app">
-    <div class="absolute top-0 w-full flex items-center justify-between py-2 px-6 bg-black text-white font-semibold">
+    <div
+      class="absolute top-0 w-full flex items-center justify-between py-2 px-6 bg-white text-orange-600 font-semibold z-40">
       <a class="underline underline-offset-2" href="https://x.com/ln_dev7">
         Code by LN
       </a>
-      <a class="underline underline-offset-2" href="https://github.com/ln-dev7/">
+      <a class="underline underline-offset-2" href="https://github.com/ln-dev7/marvel-animation-1">
         GitHub
       </a>
-      <a class="underline underline-offset-2" href="#">
-        Figma
-      </a>
     </div>
-    <div class="w-full h-full flex items-center justify-center p-4">
-      <h1 className="text-3xl font-bold underline">
-        FUN ANIMATION TEMPLATE
-      </h1>
+    <!-- #DE8426 - #3C0051 - #99F600 - #C60000 -->
+    <div class="w-full h-full flex items-center justify-center p-4 relative">
+      <div class="z-20 flex flex-col w-[500px] absolute top-1/2 left-16 gap-4 -translate-y-1/2 h-[120px] text-white">
+        <div class="flex items-start gap-2 flex-col text">
+          <h1 class="font-bold text-4xl">Aquamyst</h1>
+          <p>Aquamyst wields the power of water with grace and agility, her costume reflecting the hues of the deepest
+            seas. She manipulates water to form both shield and weapon in battle.</p>
+        </div>
+        <div class="flex items-start gap-2 flex-col text opacity-0">
+          <h1 class="font-bold text-4xl">Infernox</h1>
+          <p>Infernox commands the fierce energy of fire, his costume ablaze with red and orange. Flames envelop his
+            limbs, enhancing his fiery attacks.</p>
+        </div>
+        <div class="flex items-start gap-2 flex-col text opacity-0">
+          <h1 class="font-bold text-4xl">Terraforce</h1>
+          <p>Strong and unyielding, Terraforce embodies the strength of the earth. His rugged appearance is complemented
+            by stone-like textures, symbolizing his rock-solid powers.</p>
+        </div>
+        <div class="flex items-start gap-2 flex-col text opacity-0">
+          <h1 class="font-bold text-4xl">Aerowind</h1>
+          <p>Aerowind is the essence of the air element, her costume light and ethereal. She moves with the grace of a
+            gentle breeze but can summon the force of a tempest.</p>
+        </div>
+      </div>
+      <div class="absolute w-full h-full flex flex-col items-center overflow-hidden">
+        <div class="image w-full h-full shrink-0 flex items-center justify-center bg-[#DE8426]">
+          <img class="ml-40 object-cover" src="/image-1.png" alt="Aquamyst" />
+        </div>
+        <div class="image w-full h-full shrink-0 flex items-center justify-center bg-[#3C0051]">
+          <img class="ml-40 object-cover" src="/image-2.png" alt="Infernox" />
+        </div>
+        <div class="image w-full h-full shrink-0 flex items-center justify-center bg-[#125E24]">
+          <img class="ml-40 object-cover" src="/image-3.png" alt="Terraforce" />
+        </div>
+        <div class="image w-full h-full shrink-0 flex items-center justify-center bg-[#C60000]">
+          <img class="ml-40 object-cover" src="/image-4.png" alt="Aerowind" />
+        </div>
+      </div>
+      <div class="z-20 flex flex-col items-center absolute top-1/2 right-16 gap-2 -translate-y-1/2">
+        <div class="flex items-center justify-center w-32 h-32 cursor-pointer shrink-0 overflow-hidden">
+          <img class="avatar object-cover w-32 h-32 border-2 rounded-full" src="/avatar-1.png" alt="Aquamyst" />
+        </div>
+        <div class="flex items-center justify-center w-32 h-32 cursor-pointer shrink-0 overflow-hidden">
+          <img class="avatar object-cover w-24 h-24 border-2 rounded-full" src="/avatar-2.png" alt="Infernox" />
+        </div>
+        <div class="flex items-center justify-center w-32 h-32 cursor-pointer shrink-0 overflow-hidden">
+          <img class="avatar object-cover w-24 h-24 border-2 rounded-full" src="/avatar-3.png" alt="Terraforce" />
+        </div>
+        <div class="flex items-center justify-center w-32 h-32 cursor-pointer shrink-0 overflow-hidden">
+          <img class="avatar object-cover w-24 h-24 border-2 rounded-full" src="/avatar-4.png" alt="Aerowind" />
+        </div>
+      </div>
     </div>
   </div>
   <script type="module" src="/main.js"></script>
